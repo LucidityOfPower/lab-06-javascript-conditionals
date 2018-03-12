@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+		var num = prompt("Please enter a number:");
+		var onesa = num%10;
+		var onesb = onesa;
+		var tensa = num%100;
+		var tensb = (tensa-onesa)/10;
+		var hundredsa = num%1000;
+		var hundredsb = (hundredsa-tensa)/100;
+		var thousandsa = num%10000;
+		var thousandsb = (thousandsa-hundredsa)/1000;
+		console.log(thousandsb+" thousands");
+		console.log(hundredsb+" hundreds");
+		console.log(tensb+" tens");
+		console.log(onesb+" ones");
+	</script>
+</body>
+</html>
